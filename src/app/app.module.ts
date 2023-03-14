@@ -10,10 +10,22 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { NavigationComponent } from './myComponents/navigation/navigation.component';
+import { HomeComponent } from './myComponents/home/home.component';
+import { CustomerComponent } from './myComponents/customer/customer.component';
+import { AboutUsComponent } from './myComponents/about-us/about-us.component';
+import { OrdersComponent } from './myComponents/orders/orders.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    HomeComponent,
+    CustomerComponent,
+    AboutUsComponent,
+    OrdersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
