@@ -16,6 +16,7 @@ export class LoginComponent {
 
   login() {
     this.authService.isLoggedIn = !this.authService.isLoggedIn;
+
     this.authService.login().subscribe(() => {
       if (this.authService.isLoggedIn || (this.username == 'admin@hitachi.com' && this.password == '123')) {
         const redirectUrl = '/home';

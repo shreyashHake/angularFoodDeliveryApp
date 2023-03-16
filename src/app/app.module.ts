@@ -20,6 +20,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { LoginComponent } from './auth/login/login.component';
+import { HeaderComponent } from './info/header/header.component';
+import { FooterComponent } from './info/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { LoginComponent } from './auth/login/login.component';
     CustomerComponent,
     AboutUsComponent,
     OrdersComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
